@@ -846,6 +846,13 @@ form label {
   line-height: 1.5;
   font-family: "Sacramento", Arial, serif;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-header{
+    background-position: -150px 0px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
@@ -1231,6 +1238,7 @@ form label {
   height: 100px;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure img {
+  display: inline-block;
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
@@ -1840,6 +1848,10 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.js-fh5co-nav-toggle{
+  display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */
